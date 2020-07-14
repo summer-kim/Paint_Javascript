@@ -1,0 +1,29 @@
+@import "reset.css";
+
+body {
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paint_canvas {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin-top: 45px;
+  border-radius: 20px;
+}
+
+.color_palette {
+  margin-top: 30px;
+}
+.color_palette .colors {
+  display: flex;
+}
+
+.colors .color {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
