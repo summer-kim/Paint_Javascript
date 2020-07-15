@@ -1,6 +1,9 @@
 @import "reset.css";
 
 body {
+  font-family: Georgia, "Times New Roman", Times, serif, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   background-color: rgb(223, 223, 223);
   display: flex;
   flex-direction: column;
@@ -11,11 +14,13 @@ body {
   background-color: white;
   width: 600px;
   height: 400px;
-  margin-top: 45px;
+  margin-top: 30px;
   border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .color_palette {
+  cursor: pointer;
   margin-top: 30px;
 }
 .color_palette .colors {
@@ -26,4 +31,29 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.controls_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.control {
+  all: unset;
+  margin: 0 1.5px;
+  padding: 3.5px 8px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.74);
+  border-radius: 8px;
+  color: rgba(82, 81, 81, 0.644);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.controls_size {
+  display: flex;
+  justify-content: center;
+}
+.controls_size input {
+  background-color: rgb(16, 16, 16);
 }
